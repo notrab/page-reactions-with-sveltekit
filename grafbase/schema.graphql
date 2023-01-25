@@ -1,0 +1,7 @@
+type Page @model {
+	url: URL! @unique
+	likes: Int @default(value: 0)
+	hearts: Int @default(value: 0)
+	poop: Int @default(value: 0)
+	party: Int @default(value: 0)
+}
